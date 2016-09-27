@@ -1,0 +1,30 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "promise experiments",
+  "main": "chain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t brout chains.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cool-Blue/ES6-promises.git"
+  },
+  "keywords": [
+    "ES6",
+    "promises",
+    "chain",
+    "error",
+    "handling"
+  ],
+  "author": "cool.blue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cool-Blue/ES6-promises/issues"
+  },
+  "homepage": "https://github.com/cool-Blue/ES6-promises#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0"
+  }
+}
